@@ -1,7 +1,7 @@
 /*roots     
 -White: #ffffff
 - Pale blue: #ebf1ff
-- Light lavender: #c8c7f
+- Light lavender: #c8c7ff
 - Dark gray blue: #303b5a
 - Light red: #ff5757
 - Orangey yellow: #ffb01f
@@ -32,4 +32,66 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 720px;
+    height: 510px;
+    margin-top: 8rem;
+   
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    background: #2e2be9;
+    background: linear-gradient(90deg, #2e2be9 16%, #7857fff3 91%);
+    width: auto;
+}
+
+.container1 h2 {
+    color: #c8c7ff;
+    opacity: .7;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.circle {
+    background: rgb(78,33,202);
+    background: linear-gradient(360deg, rgba(78,33,202,1) 17%, rgba(36,33,202,1) 96%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.big-number {
+    color: white;
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.small-number {
+    color: #c8c7ff;
+    opacity: .5;
+}
+
+.container1 h3 {
+    color: white;
+    font-weight: 500px;
+    font-size: 24px;
+    margin: 1.5rem 0rem;
+} 
+
+.text {
+    color: white;
+    opacity: .7;
+    font-size: 14px;
+    font-weight: 300px;
+    text-align: center;
+    width: 45%;
+    line-height: 1.5;
+    padding-bottom: 3rem;   
 }
